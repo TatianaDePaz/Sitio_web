@@ -1,0 +1,52 @@
+.header{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header img{
+    width: 150px;
+}
+
+.header ul {
+    display: flex;
+    width: 100%;
+    justify-content: right;
+    align-items: center;
+    padding-right: 15px;
+}
+
+.header li {
+    list-style: none;
+    font-size: 28px;
+    margin: 0px 15px;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+
+/* Paginas */
+
+
+    .dish-image {
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+      transition: transform 0.3s ease;
+    }
+
+    .dish-image:hover {
+      transform: scale(1.1);
+    }
+
+    .introduccion {
+      font-family: 'Pacifico', cursive;
+      font-size: 24px;
+      text-align: center;
+      margin-top: 20px;
+    }

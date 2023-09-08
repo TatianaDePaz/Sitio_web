@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href=https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js">
+    <link rel="stylesheet" href="../style.css" >
+   <script defer src="../main.js"></script>
+    <style>
+        .coraline-image {
+        width: 300px;
+        height: 300px;
+        border-radius: 50%;
+        /* Añade animación de rotación */
+        animation: rotate 4s infinite linear;
+    }
+
+    @keyframes rotate {
+      from {
+        transform: rotate(0deg);
+      }
+      to {
+        transform: rotate(360deg);
+      }
+    }
+    </style>
+    <title>Coraline</title>
+</head>
+<body>
+    <div class="header" style="background-color: rgb(22, 0, 122);">
+        <img src="../img/logo.jpg" alt="Logo de Laika studios">
+        <ul>
+            <a href="../index.html"><li>Inicio</li></a>
+            <a href="../html/paranorman.html"><li>Paranorman</li></a>
+            <a href="../html/kubo.html"><li>kubo</li></a>
+            <a href="../html/boxtrolls.html"><li>The Boxtrolls</li></a>
+            <a href="../html/missing.html"><li>Missing Link</li></a>
+        </ul>
+     </div>
+
+     <header class="bg-primary py-4">
+        <div class="Container text-center">
+            <h1>Coraline</h1>
+            <img src="../img/coraline1.jpg" alt="" class="coraline-image">
+        </div>
+        <div class="container mt-4">
+            <div class="introduccion">
+                <h1>Coraline y La Puerta Secreta</h1>
+                <p>Es una película de animación stop motion estadounidense escrita y dirigida por Henry Selick, basada en la novela homónima de Neil Gaiman y estrenada por primera vez en salas de cine el 6 de febrero de 2009 en Estados Unidos. Fue la primera película en ser producida por los estudios de animación Laika.</p>
+            </div>  
+        </div>
+     </header>
+
+     <div>
+        <h1>Sinopsis</h1>
+        <div id="contenido">
+          <p>Película de animación en la que se nos cuenta la historia de Coraline, una jovencita que descubre en su nueva casa una puerta secreta y decide abrirla. Al hacerlo, descubre una segunda versión de su vida, una vida paralela a la que ella tiene. A primera vista, la realidad paralela es curiosamente parecida a su vida de verdad, aunque mucho mejor. Pero cuando su increíble y maravillosa aventura empieza a tomar un cariz peligroso y su otra madre intenta mantenerla a su lado para siempre, Coraline deberá recurrir a su determinación y coraje, a la ayuda de los vecinos y a un gato negro con el don del habla para salvar a sus auténticos padres, a unos niños fantasmas y regresar a casa.</p>
+        </div>
+        <button onclick="mostrar('contenido')" class="btn btn-primary" form="contenido">+</button>
+    </div>
+    <hr>
+
+    <div class="row mt-4">
+        <div class="col-md-4 mb-4">
+          <img src="../img/castillo rosa.jpg" alt="" class="dish-image">
+          <p><b>Castillo Rosa</b></p>
+        </div>
+        <div class="col-md-4 mb-4">
+            <img src="../img/coraline2.jpg" alt="" class="dish-image">
+            <p><b>El otro mundo</b></p>
+        </div>
+        <div class="col-md-4 mb-4">
+            <img src="../img/Coraline3.jpg" alt="" class="dish-image">
+            <p><b>La otra madre</b></p>
+        </div>
+    </div>
+    <hr>
+
+    <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/3TZ5SUq3BSWYSJCg5Xke8k?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+
+
+     <footer class="py-4 text-center" style="background-color: rgb(22, 0, 122);">
+        <p ><b>@Tatiana Elizabeth De Paz Rodriguez</b></p>
+     </footer>
+    
+     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js" integrity="sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa" crossorigin="anonymous"></script>
+</body>
+</html>
